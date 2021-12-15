@@ -1,0 +1,202 @@
+html {
+  box-sizing: border-box;
+  -webkit-text-size-adjust: 100%;
+  text-size-adjust: 100%;
+  font-family: "Noto Sans", sans-serif;
+  line-height: 1.5;
+  margin: 1em;
+}
+
+header {
+  display: flex;
+  justify-content: space-between;
+}
+
+img {
+  max-width: 200px;
+}
+
+header nav {
+  text-align: right;
+}
+header nav ul li {
+  display: inline-flex;
+}
+
+.portfolio img {
+  max-width: 400px;
+}
+
+.portfolio div {
+}
+
+.portfolio div div {
+}
+
+.profile img {
+  max-width: 500px;
+}
+
+.profile section {
+}
+
+footer ul {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  justify-items: center;
+  margin: 0;
+  padding: 0
+}
+
+footer a {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  color: #76a500;
+}
+
+a:hover,
+a:focus {
+  color: #acc300;
+}
+
+footer .icon {
+  position: relative;
+  height: 8em;
+  width: 8em;
+}
+
+footer .icon svg {
+  left: 0;
+  height: 100%;
+  position: absolute;
+  top: 0;
+  width: 100%;
+  fill: currentColor;
+}
+
+
+@media only screen and (min-width: 38em) {
+  .preview div {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+  }
+
+  .portfolio h2 {
+    column-span: all;
+  }
+
+  .portfolio {
+  }
+
+  .portfolio .card {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+  }
+
+  .portfolio .right {
+    order: 1;
+  }
+
+  .portfolio .left {
+    order: 0;
+  }
+
+
+  .congrego h1 {
+    text-align: right;
+  }
+
+  .congrego .main {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+  }
+
+  .congrego .header img {
+    max-width: 100%;
+  }
+
+  .congrego .main img {
+    max-width: 100%;
+  }
+
+  .eco-smart h1 {
+    text-align: right;
+  }
+
+  .eco-smart .main {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+  }
+
+  .eco-smart .header img {
+    max-width: 100%;
+  }
+
+  .eco-smart .main img {
+    max-width: 100%;
+  }
+
+  .lanuitblanche h1 {
+    text-align: right;
+  }
+
+  .lanuitblanche .main {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+  }
+
+  .lanuitblanche .header img {
+    max-width: 100%;
+  }
+
+  .lanuitblanche .main img {
+    max-width: 100%;
+  }
+
+  .loews h1 {
+    text-align: right;
+  }
+
+  .loews .main {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+  }
+
+  .loews .header img {
+    max-width: 100%;
+  }
+
+  .loews .main img {
+    max-width: 100%;
+  }
+
+  .ps5 h1 {
+    text-align: right;
+  }
+
+  .ps5 .main {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+  }
+
+  .ps5 .header img {
+    max-width: 100%;
+  }
+
+  .ps5 .main img {
+    max-width: 100%;
+  }
+}
+
+@media only screen and (min-width: 60em) {
+  .profile section {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+  }
+
+  .profile .resume {
+    column-span: all;
+  }
+
+}
