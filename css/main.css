@@ -7,13 +7,13 @@ html {
   margin: 1em;
 }
 
+.logo {
+  max-width: 200px;
+}
+
 header {
   display: flex;
   justify-content: space-between;
-}
-
-img {
-  max-width: 200px;
 }
 
 header nav {
@@ -21,6 +21,10 @@ header nav {
 }
 header nav ul li {
   display: inline-flex;
+}
+
+.preview img {
+  max-width: 100%;
 }
 
 .portfolio img {
@@ -38,6 +42,10 @@ header nav ul li {
 }
 
 .profile section {
+}
+
+footer {
+  background-color: #838383;
 }
 
 footer ul {
@@ -77,9 +85,19 @@ footer .icon svg {
 
 
 @media only screen and (min-width: 38em) {
+
   .preview div {
-    display: grid;
-    grid-template-columns: 1fr 1fr;
+    display: flex;
+    flex-direction: row;
+  }
+  .prev1 {
+    padding: 2em;
+    width: 100%;
+  }
+
+  .prev2 {
+    padding: 2em;
+    width: 100%
   }
 
   .portfolio h2 {
@@ -102,6 +120,14 @@ footer .icon svg {
     order: 0;
   }
 
+  .portfolio img {
+    max-width: 100%;
+    max-height: 800px;
+  }
+
+  .card img {
+    max-width 100vdsv
+  }
 
   .congrego h1 {
     text-align: right;
