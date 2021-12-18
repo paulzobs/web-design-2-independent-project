@@ -21,31 +21,26 @@ header nav {
 }
 header nav ul li {
   display: inline-flex;
+  text-decoration: none;
+}
+
+header nav ul li a {
+  color: #000000;
+  text-decoration: none;
 }
 
 .preview img {
   max-width: 100%;
 }
 
-.portfolio img {
-  max-width: 400px;
-}
-
-.portfolio div {
-}
-
-.portfolio div div {
-}
-
-.profile img {
-  max-width: 500px;
-}
-
-.profile section {
+.botton {
+  color: #000000;
+  text-decoration: none;
 }
 
 footer {
-  background-color: #838383;
+  background-color: #a6a6a6;
+  margin-top: 2em;
 }
 
 footer ul {
@@ -60,12 +55,12 @@ footer a {
   display: flex;
   flex-direction: column;
   align-items: center;
-  color: #76a500;
+  color: #000000;
 }
 
 a:hover,
 a:focus {
-  color: #acc300;
+  color: #696969;
 }
 
 footer .icon {
@@ -81,6 +76,18 @@ footer .icon svg {
   top: 0;
   width: 100%;
   fill: currentColor;
+}
+
+.profile img {
+  max-width: 500px;
+}
+
+.congrego img {
+  width: 100%;
+}
+
+.ps5 img {
+  width: 100%;
 }
 
 
@@ -129,13 +136,10 @@ footer .icon svg {
     max-width 100vdsv
   }
 
-  .congrego h1 {
-    text-align: right;
-  }
-
   .congrego .main {
     display: grid;
     grid-template-columns: 1fr 1fr;
+    column-gap: 1em;
   }
 
   .congrego .header img {
@@ -146,13 +150,23 @@ footer .icon svg {
     max-width: 100%;
   }
 
-  .eco-smart h1 {
-    text-align: right;
+  .ps5 .main {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    margin-top: 2em;
+    margin-bottom: 2em;
+    column-gap: 1em;
+  }
+
+  .ps5 .main img {
+    max-width: 100%;
   }
 
   .eco-smart .main {
     display: grid;
     grid-template-columns: 1fr 1fr;
+    column-gap: 1em;
+    margin-bottom: 1em;
   }
 
   .eco-smart .header img {
@@ -161,10 +175,6 @@ footer .icon svg {
 
   .eco-smart .main img {
     max-width: 100%;
-  }
-
-  .lanuitblanche h1 {
-    text-align: right;
   }
 
   .lanuitblanche .main {
@@ -180,39 +190,24 @@ footer .icon svg {
     max-width: 100%;
   }
 
-  .loews h1 {
-    text-align: right;
-  }
 
-  .loews .main {
+  .lowes .main {
     display: grid;
     grid-template-columns: 1fr 1fr;
   }
+  .lowes .logo {
+    max-width: 200px;
+  }
 
-  .loews .header img {
+  .lowes .header img {
     max-width: 100%;
   }
 
-  .loews .main img {
-    max-width: 100%;
+  .test {
+    max-width: 50%;
   }
 
-  .ps5 h1 {
-    text-align: right;
-  }
 
-  .ps5 .main {
-    display: grid;
-    grid-template-columns: 1fr 1fr;
-  }
-
-  .ps5 .header img {
-    max-width: 100%;
-  }
-
-  .ps5 .main img {
-    max-width: 100%;
-  }
 }
 
 @media only screen and (min-width: 60em) {
